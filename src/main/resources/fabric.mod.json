@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "bananasword",
+  "version": "${version}",
+  "name": "Banana Sword",
+  "description": "Adds a banana-themed sword that deals extra damage to villagers.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.bananasword.BananaSwordMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
